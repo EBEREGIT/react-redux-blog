@@ -16,7 +16,7 @@ class PostForm extends Component {
         this.onSubmit = this.onSubmit.bind(this);
     }
 
-    // onChange collecting values from the form fields
+    // collecting values from the form fields
     onChange(e){
         this.setState({ [e.target.name]:  e.target.value });
     }
